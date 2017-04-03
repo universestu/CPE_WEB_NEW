@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog Sidebar - KIDZ</title>
+  <title>Single Blog Left Sidebar - KIDZ</title>
   
   <!-- PLUGINS CSS STYLE -->
   <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
@@ -292,11 +292,11 @@
                   <span>Blog</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
-                  <li class="active dropdown dropdown-submenu">
+                  <li class="dropdown dropdown-submenu">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Grid<i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class="active"><a href="blog-grid.html">Blog Grid Fullwidth</a></li>
+                      <li><a href="blog-grid.html">Blog Grid Fullwidth</a></li>
                       <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
                       <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
                     </ul>
@@ -310,12 +310,12 @@
                       <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
                     </ul>
                   </li>
-                  <li class="dropdown dropdown-submenu">
+                  <li class="active dropdown dropdown-submenu">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Single Blog<i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
                       <li><a href="single-blog.html">Single Blog Fullwidth</a></li>
-                      <li><a href="single-blog-left-sidebar.html">Single Blog Left Sidebar</a></li>
+                      <li class="active"><a href="single-blog-left-sidebar.html">Single Blog Left Sidebar</a></li>
                       <li><a href="single-blog-right-sidebar.html">Single Blog Right Sidebar</a></li>
                     </ul>
                   </li>
@@ -407,109 +407,206 @@
     <section class="pageTitleSection">
       <div class="container">
         <div class="pageTitleInfo">
-          <h2>ผลงาน</h2>
+          <h2>Blog Details</h2>
           <ol class="breadcrumb">
             <li><a href="index-v1.html">Home</a></li>
+            <li class="active">Blog Details</li>
           </ol>
         </div>
       </div>
     </section>
 
     <!-- MAIN SECTION -->
-    <section class="mainContent full-width clearfix coursesSection">
+    <section class="mainContent full-width clearfix">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-xs-12 block">
+          <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-1.png" alt="image" class="img-responsive"></a>
-              <div class="caption border-color-1">
-                <h3><a href="single-blog-left-sidebar.html" class="color-1">NSC 2017</a></h3>
-                <p>รายชื่อโครงงานที่ได้รับรางวัล NSC 2107</p>
-                <ul class="list-inline btn-yellow">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-2.jpg" alt="image" class="img-responsive"></a>
-              <div class="caption border-color-2">
-                <h3><a href="single-blog-left-sidebar.html" class="color-2">วิ่งยังไงให้ได้ทุน!!!</a></h3>
-                <p>อาจารย์ 4.0 คว้าทุนเมธีวิจัยอย่างงดงาม ไม่เก๋าจริงทำไม่ได้เค้าทำได้อย่างไรไปดู!!!</p>
-                <ul class="list-inline btn-green">
-                  <li><a href="single-blog-left-sidebar2.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-3.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-3">10 <br>July</div>
-              <div class="caption border-color-3">
-                <h3><a href="single-blog-left-sidebar.html" class="color-3">Curabitur ac nulla sodales risus.</a></h3>
-                <ul class="list-inline">
+              <img src="img/blog/news.jpg" alt="image" class="img-responsive">
+              <div class="caption border-color-1 singleBlog">
+                <h3 class="color-1">วิ่งยังไงให้ได้ทุน!!!</h3>
+                <ul class="list-inline blogInfo">
                   <li><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</li>
                   <li><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments </li>
                 </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <ul class="list-inline btn-red">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
+                <p>นี่ก็คือใบหน้าของท่านรองศาสตราจารย์ ดร. สรรพวรรธน์ กันตะบุตร<br>
+                จากกลุ่มทฤษฎีการคำนวณ ภาควิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ได้รับคัดเลือกจากสำนักงานกองทุนสนับสนุนการวิจัย (สกว.) ให้ได้รับรางวัลทุนเมธีวิจัย สกว. ปี 2560 สนับสนุนโดย สกว. และสถาบันต้นสังกัดให้กับนักวิจัยรุ่นกลาง เพื่อสร้างนักวิจัยอาชีพให้เป็นผู้นำเชิงวิชาการระดับนานาชาติ รวมถึงองค์ความรู้ใหม่อันเป็นพื้นฐานต่อการพัฒนาประเทศ และผลิตผลงานตีพิมพ์ในระดับนานาชาติ
+                รองศาสตราจารย์ ดร. สรรพวรรธน์ จะทำการวิจัยในเรื่องโมเดลเชิงคณิตศาสตร์ด้านความปลอดภัยทางไซเบอร์ (cyber security) ซึ่งเป็นการวิจัยพื้นฐาน (basic research) ที่มุ่งสร้างองค์ความรู้ใหม่เกี่ยวกับความปลอดภัยทางไซเบอร์  โดยประยุกต์ใช้ทฤษฎีกราฟ (graph theory) และทฤษฎีคอมพิวเตอร์ (theoretical computer science) ในการวิเคราะห์ปัญหา
+                อนึ่ง รางวัลเมธีวิจัย สกว. ในครั้งนี้สนับสนุนทุนสำหรับการวิจัยต่อเนื่องจากทุนเมธีวิจัย สกว. ที่รองศาสตราจารย์ ดร. สรรพวรรธน์ กันตะบุตรได้รับครั้งแรกในปี 2554 โดยมีระยะเวลาทั้งสิ้น 3 ปี ผมนี่นับถืออาจารย์จริงๆ 
+                <h1>ทำไปได้</h1>
+                </p>
+                <ul class="list-inline socailLink">
+                  <li><a href="#" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="bg-color-2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="bg-color-3"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="bg-color-4"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="bg-color-5"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
                 </ul>
+              </div>
+            </div>
+            <div class="blogComments">
+              <h3>3 Comments</h3>
+              <ul class="media-list commentsList">
+                <li class="media">
+                  <div class="media-left">
+                    <img src="img/blog/blog-1.jpg" alt="image" class="img-circle">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Sarah Smith</h4>
+                    <p>July 7, 2016</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left">
+                    <img src="img/blog/blog-2.jpg" alt="image" class="img-circle">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Sarah Smith</h4>
+                    <p>July 7, 2016</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left">
+                    <img src="img/blog/blog-3.jpg" alt="image" class="img-circle">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Sarah Smith</h4>
+                    <p>July 7, 2016</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left">
+                    <img src="img/blog/blog-4.jpg" alt="image" class="img-circle">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Sarah Smith</h4>
+                    <p>July 7, 2016</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="blogComments">
+              <h3>Leave A Reply</h3>
+              <div class="homeContactContent">
+                <form action="#" method="POST" role="form">
+                  <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                      <div class="form-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="First name">
+                      </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                      <div class="form-group">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Email address">
+                      </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                      <div class="form-group">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Website">
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="form-group">
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                        <textarea class="form-control border-color-4" placeholder="Write message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="formBtnArea pull-left">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-4.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-4">10 <br>July</div>
-              <div class="caption border-color-4">
-                <h3><a href="single-blog-left-sidebar.html" class="color-4">The standard chunk of Lorem.</a></h3>
-                <ul class="list-inline">
-                  <li><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</li>
-                  <li><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments </li>
-                </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <ul class="list-inline btn-sky">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
-                </ul>
+          <div class="col-md-3 col-sm-4 col-xs-12 pull-left">
+            <aside>
+              <div class="panel panel-default courseSidebar">
+                <div class="panel-heading bg-color-1 border-color-1">
+                  <h3 class="panel-title">Search</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter Your Search" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><input class="btn btn-primary bg-color-1" type="submit" value="Search"></span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-3.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-5">10 <br>July</div>
-              <div class="caption border-color-5">
-                <h3><a href="single-blog-left-sidebar.html" class="color-5">Vestibulum congue massa vitae.</a></h3>
-                <ul class="list-inline">
-                  <li><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</li>
-                  <li><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments </li>
-                </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <ul class="list-inline btn-purple">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
-                </ul>
+              <div class="panel panel-default courseSidebar">
+                <div class="panel-heading bg-color-2 border-color-2">
+                  <h3 class="panel-title">Categories</h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="list-unstyled categoryItem">
+                    <li><a href="category.html">Education</a></li>
+                    <li><a href="category.html">Kindergarten</a></li>
+                    <li><a href="category.html">Playground</a></li>
+                    <li><a href="category.html">Post Formats</a></li>
+                    <li><a href="category.html">Children</a></li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/courses/course-4.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-6">10 <br>July</div>
-              <div class="caption border-color-6">
-                <h3><a href="single-blog-left-sidebar.html" class="color-6">Curabitur ac nulla sodales risus.</a></h3>
-                <ul class="list-inline">
-                  <li><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</li>
-                  <li><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments </li>
-                </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <ul class="list-inline btn-pink">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
-                </ul>
+              <div class="rightSidebar">
+                <div class="panel panel-default">
+                  <div class="panel-heading bg-color-5 border-color-5">
+                    <h3 class="panel-title">Related Course</h3>
+                  </div>
+                  <div class="panel-body">
+                    <ul class="media-list blogListing">
+                      <li class="media">
+                        <div class="media-left">
+                          <a href="course-single-left-sidebar.html"><img src="img/course-single/related-course-01.jpg" alt="image"></a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="course-single-left-sidebar.html">Mauris semper mass feugiat facilisis.</a></h4>
+                          <p>July 7, 2016</p>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-left">
+                          <a href="course-single-left-sidebar.html"><img src="img/course-single/related-course-02.jpg" alt="image"></a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="course-single-left-sidebar.html">Mauris semper mass feugiat facilisis.</a></h4>
+                          <p>July 7, 2016</p>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-left">
+                          <a href="course-single-left-sidebar.html"><img src="img/course-single/related-course-03.jpg" alt="image"></a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="course-single-left-sidebar.html">Mauris semper mass feugiat facilisis.</a></h4>
+                          <p>July 7, 2016</p>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-left">
+                          <a href="course-single-left-sidebar.html"><img src="img/course-single/related-course-04.jpg" alt="image"></a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="course-single-left-sidebar.html">Mauris semper mass feugiat facilisis.</a></h4>
+                          <p>July 7, 2016</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </div>
@@ -666,7 +763,6 @@
   <div class="scrolling">
     <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
   </div>
-
   <!-- LOGIN MODAL -->
   <div class="modal fade customModal" id="loginModal" tabindex="-1" role="dialog">
     <div class="modal-dialog">
